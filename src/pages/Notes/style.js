@@ -15,10 +15,11 @@ const style = StyleSheet.create({
     txtTitleNote:{
         width:'100%',
         padding:10,
-        borderBottomWidth:0.5,
+        borderBottomWidth:1,
         marginBottom:20,
         fontSize:20,
-        color:'#808080'
+        color:'#000602',
+        fontWeight:'bold'
     }
 })
 

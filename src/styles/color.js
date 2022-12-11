@@ -2,7 +2,7 @@ const COLORS = {
     homeBackgroud: '#E8E8E8',
     noteBackground: '#fff',
     notes:'#fff',
-    header: '#0456FA',
+    header: '#04B3FA',
     headerButtons:'#000',
     addButton:'#0456FA',
     loading:'#0000ff',

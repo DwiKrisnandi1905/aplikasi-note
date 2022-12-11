@@ -11,7 +11,7 @@ const style = StyleSheet.create({
         position:'absolute',
         bottom:30,
         right:40,
-        backgroundColor: '#fff',
+        backgroundColor: '#04FAEF',
         borderRadius: 100,
         shadowColor: "#000",
         shadowOffset: {
@@ -36,3 +36,7 @@ const style = StyleSheet.create({
 })
 
 export default style;
+
+
+
+

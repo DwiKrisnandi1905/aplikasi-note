@@ -18,7 +18,7 @@ export default async function SaveNote(note, navigation){
     if(note.note === '' || note.title === ''){
         Alert.alert(
             'ERROR',
-            'Judul dan Isi tidak boleh kosong ya!',
+            'Judul maupun Isi tidak boleh kosong ya!',
             [
                 {
                     text:'OK',

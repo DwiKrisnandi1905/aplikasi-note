@@ -27,10 +27,10 @@ export default function Notes({route,navigation}){
                 return(
                     <View style={{width: 80, flexDirection:'row', justifyContent: 'space-between', marginRight: 30}}>
                         <TouchableOpacity onPress={()=>Save(note, navigation)}>
-                            <Feather name="save" size={24} color="black"/>
+                            <Feather name="save" size={24} color="white"/>
                         </TouchableOpacity>
                         <TouchableOpacity onPress={()=>Delete(note, navigation)}>
-                            <Feather name="trash-2" size={24} color="black"/>
+                            <Feather name="trash-2" size={24} color="red"/>
                         </TouchableOpacity>
                     </View>
                 )
@@ -43,7 +43,7 @@ export default function Notes({route,navigation}){
             <TextInput 
                 style={Style.txtTitleNote} 
                 autoFocus={true} 
-                maxLength={40}
+                maxLength={50}
                 value={note.title} 
                 placeholder={'Judul'}
                 onChangeText={text=>setNote({ ...note, title: text })}

@@ -19,7 +19,7 @@ export default function SearchBar({data,onChange}){
 
     return(
         <View style={Style.searchArea}>
-            <TextInput placeholder='Cari...' maxLength={50} onChangeText={(text)=>search(text)}/>
+            <TextInput placeholder='Cari...' maxLength={100} onChangeText={(text)=>search(text)}/>
         </View>
     )
 }

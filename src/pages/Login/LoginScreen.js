@@ -44,10 +44,10 @@ const styles = StyleSheet.create({
     },
     input: {
         width: 200,
-        height: 44,
+        height: 45,
         padding: 10,
-        borderWidth: 1,
-        borderColor: "black",
+        borderWidth: 2,
+        borderColor: "blue",
         marginBottom: 10,
     },
 });
