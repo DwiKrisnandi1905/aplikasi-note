@@ -2,6 +2,7 @@ import { useAuth } from "../../../contexts/AuthContext";
 import { useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { StyleSheet, Text, TextInput, Button, View } from "react-native";
+import { Colors } from "react-native/Libraries/NewAppScreen";
 
 const LoginScreen = ({ navigation }) => {
     const { login } = useAuth();
@@ -10,6 +11,7 @@ const LoginScreen = ({ navigation }) => {
 
     return (
         <View style={styles.container}>
+            <Text style={styles.header}>Catatanku</Text>
             <TextInput
                 value={user}
                 onChangeText={(text) => setUser(text)}
@@ -49,5 +51,13 @@ const styles = StyleSheet.create({
         borderWidth: 2,
         borderColor: "blue",
         marginBottom: 10,
+    },
+    header: {
+        paddingLeft: 8,
+        fontSize: 40,
+        marginBottom:20,
+        color: 'blue',
+        fontStyle: 'italic',
+        fontWeight: 'bold'
     },
 });

@@ -33,7 +33,7 @@ const AuthProvider = ({ children }) => {
                 await AsyncStorage.setItem(authenticatedKey, "true");
                 setAuthenticated(true);
             } else {
-                Alert.alert("Peringatan", `salah`);
+                Alert.alert("Peringatan", `username atau password salah`);
             }
             setLoading(false);
         } catch (error) {

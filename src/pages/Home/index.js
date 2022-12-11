@@ -68,7 +68,16 @@ export default function Home({navigation}){
                     <Text style={{
                         textAlign: 'center',
                         fontSize: 30,
-                        marginBottom: 35
+                        marginBottom: 27,
+                        color: 'red',
+                        padding: 10,
+                        borderWidth: 2,
+                        borderColor: 'blue',
+                        width: 140,
+                        height: 60,
+                        backgroundColor: 'dodgerblue',
+                        left: 100,
+                        fontWeight: 'bold'
                     }}>Logout</Text>
                 </TouchableHighlight>
             </SafeAreaView>
